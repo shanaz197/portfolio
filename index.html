@@ -761,23 +761,53 @@
           </div>
           <aside class="info-card">
             <div class="info-row">
-              <a href="mailto:shanazkarim197@gmail.com"
-                >shanazkarim197@gmail.com</a
-              >
+              <a href="mailto:shanazkarim197@gmail.com">
+                <img src="email.png" alt="Email" width="25" height="25" />
+                <span>shanazkarim197@gmail.com</span>
+              </a>
             </div>
             <div class="info-row">
-              <a href="https://github.com/shanaz197" target="_blank"
-                >github.com/shanaz197</a
-              >
+              <a href="https://github.com/shanaz197" target="_blank">
+                <img src="github.png" alt="GitHub" width="25" height="25" />
+                <span>github.com/shanaz197</span>
+              </a>
             </div>
             <div class="info-row">
               <a
                 href="https://linkedin.com/in/shanaz-karim-409bb279"
                 target="_blank"
-                >linkedin.com/in/shanaz-karim-409bb279</a
               >
+                <img src="linkedin.png" alt="LinkedIn" width="25" height="25" />
+                <span>linkedin.com/in/shanaz-karim-409bb279</span>
+              </a>
             </div>
           </aside>
+
+          <style>
+            .info-card {
+              display: flex;
+              flex-direction: column;
+              gap: 1rem;
+            }
+
+            .info-row a {
+              display: flex;
+              align-items: center;
+              gap: 0.5rem; /* space between icon and text */
+              text-decoration: none;
+              color: #111;
+              font-weight: 500;
+            }
+
+            .info-row a img {
+              display: inline-block;
+              vertical-align: middle;
+            }
+
+            .info-row a:hover {
+              color: #0073e6; /* optional hover color */
+            }
+          </style>
         </div>
       </section>
     </main>
